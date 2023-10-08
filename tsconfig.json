@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "moduleResolution": "node",
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "ts-node": {"esm": true },
+}

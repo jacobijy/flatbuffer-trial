@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "flatbuffers": "^23.5.26",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3"
+  }
+}

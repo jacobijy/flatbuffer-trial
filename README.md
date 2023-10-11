@@ -10,7 +10,7 @@ __indirect(offset) 检索存储在“offset”处的相对偏移量
 ## __vector
 __vector(offset) 获取数组的开头，该数组的偏移量存储在此对象的“offset”处。
 
-返回值：offset + 存储在offset处的int值 + int字节数(4)
+返回值：offset + 存储在offset处的int值 + int字节数(4) (INT字节数是为了跳过vector_len数值)
 ## __vector_len
 __vector_len(offset) 获取一个数组的长度，该向量的偏移量存储在此对象的“offset”处。
 

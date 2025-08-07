@@ -5,7 +5,7 @@
             "test1": 100,
             "test2": "a",
             "test3": {
-                "test4": 20,
+                "test4": true,
                 "test5": 30
             },
             "test6": [
@@ -20,7 +20,7 @@
             "test1": 101,
             "test2": "b",
             "test3": {
-                "test4": 40,
+                "test4": false,
                 "test5": 50
             },
             "test6": [

@@ -1,5 +1,5 @@
 struct TestStruct {
-    test4: uint32;
+    test4: bool;
     test5: uint32;
 }
 

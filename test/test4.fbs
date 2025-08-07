@@ -1,0 +1,17 @@
+struct TestStruct {
+    test4: uint32;
+    test5: uint32;
+}
+
+table TestData {
+    type1: uint8;
+    test1: float;
+    test2: string;
+    test3: TestStruct;
+    test6: [uint16];
+}
+
+table TestTable {
+    entries:[TestData];
+}
+root_type TestTable;

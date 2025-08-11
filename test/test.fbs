@@ -1,23 +1,9 @@
-struct Move {
-    move: uint16;
-    level: int8;
+table TestA {
+    b: string;
 }
 
-table ZukanData {
-    index: uint16;
-    group: uint8;
+table Test0 {
+    a: TestA;
 }
 
-table PersonalData {
-    is_present: bool;
-    dex: ZukanData;
-    type1: uint8;
-    test1: float;
-    test2: string;
-    test3: [Move];
-    test4: [ZukanData];
-    test5: [uint16];
-    test6: [string];
-}
-
-root_type PersonalData;
+root_type Test0;
